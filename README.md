@@ -1,14 +1,16 @@
 # Graphlevel-SSL
 
-### Overview
-Apply Graph Self-Supervised Learning methods to graph-level task(TUDataset, MolculeNet Dataset).
-It is unified framework to compare state-of-the art graph-level self-supervised learning method with two well-known dataset(TUDataset, MoleculeNet Dataset).
-I only focused on linear protocol which is two step method
+## Overview
+Apply Graph Self-Supervised Learning methods to graph-level task(TUDataset, MolculeNet Dataset).  
+It is unified framework to compare state-of-the art graph-level self-supervised learning method with two well-known dataset(TUDataset, MoleculeNet Dataset).  
+
+I only focused on linear protocol which is two step method  
+
 
 1) pretrain with self-supervied method
 2) freeze encoder and only train classifier 
 
-### Reference
+## Reference
 I adopt various official codes to unify below methods.
 I expect that it can ensure very fair comparision.
 
