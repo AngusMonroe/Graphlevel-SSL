@@ -19,3 +19,24 @@ I expect that it can ensure very fair comparision.
 - MVGRL : https://github.com/kavehhassani/mvgrl
 - GCA : https://github.com/CRIPAC-DIG/GCA
 - BGRL(not official code) : https://github.com/Namkyeong/BGRL_Pytorch
+
+## How to Run
+
+### TUDataset
+
+```
+git clone https://github.com/LJS-Student/Graphlevel-SSL.git
+cd Unsup_TU
+mkdir results
+sh example.sh
+```
+
+### MoleculeNet Dataset
+
+you can download MoleculeNet Dataset [**here**](http://snap.stanford.edu/gnn-pretrain/data/)
+
+```
+cd Unsup_Mol
+mkdir results
+sh example.sh
+```
